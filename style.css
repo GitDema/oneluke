@@ -3,4 +3,115 @@
 	padding: 0;
 	border: 0;
 	outline: 0;
+	vertical-align: top;
 }
+
+body{
+	width: 1200px;
+	margin: 0 auto;
+	background: #fff;
+	font-family: inconsolata, arial, sens-serif;
+}
+
+header{
+	height: 650px;
+	background: url(images/head-bg.jpg) no-repeat;
+	background-size: cover; 
+}
+
+.wrapper{
+	height: 570px;
+	text-align: center;
+	padding-top: 80px;
+	
+}
+
+.logo{
+	display: block;
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	background: url(images/logo.png) no-repeat;
+	background-size: contain;
+	margin-bottom: 30px;
+}
+
+.wrapper ul{
+	height: 50px;
+	list-style: none;
+	padding-top: 10px;
+	margin-bottom: 40px;
+}
+
+.wrapper ul li{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+
+.wrapper ul li:first-child{
+	background: url(images/icon-facebook.png) no-repeat center;
+}
+
+.wrapper ul li:nth-child(2){
+	background: url(images/icon-twitter.png) no-repeat center;
+}
+
+.wrapper ul li:nth-child(3){
+	background: url(images/icon-google.png) no-repeat center;
+}
+
+.wrapper ul li:nth-child(4){
+	background: url(images/icon-dribbble.png) no-repeat center;
+}
+
+.wrapper ul li:nth-child(5){
+	background: url(images/icon-linkedin.png) no-repeat center 6px;
+}
+
+.wrapper ul li:nth-child(6){
+	background: url(images/icon-behance.png) no-repeat center;
+}
+
+.wrapper ul li:not(:first-child){
+	margin-left: 20px;
+}
+
+.wrapper ul li:hover{
+	width: 33px;
+	height: 33px;
+	margin-left: 0 30px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	cursor: pointer;
+}
+
+.wrapper p{
+	font-size: 38px;
+	color: #fff;
+	margin-bottom: 50px;
+}
+
+.wrap-timer{}
+
+.wrap-timer > div{
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	margin-right: 30px;
+	text-align: center;
+}
+
+.wrap-timer > div>p{
+	margin-top: 20px;
+	height: 60px;
+	font-size: 75px;
+	line-height: 50px;
+}
+
+.wrap-timer > div > p > span{
+	font-size: 16px;
+}
+
