@@ -115,3 +115,132 @@ header{
 	font-size: 16px;
 }
 
+/*=========partners===========*/
+
+.partners img{
+	position: relative;
+	left: -60px;
+}
+
+/*-------development----------*/
+
+.wrap-dev{
+	background: url(images/top-content-bg.png) no-repeat;
+	background-size: contain;
+	height: 255px;
+}
+
+.wrap-dev div{
+	display: inline-block;
+	width: 300px;
+	margin-top: 100px;
+	margin-left: 90px;
+}
+
+.wrap-dev strong{
+	text-transform: uppercase;
+	position: relative;
+}
+.wrap-dev strong:before{
+	content: '';
+	background: url(images/icon-lightning.png) no-repeat;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 0;
+	top: -60px;
+}
+
+.wrap-dev  p+p {
+	margin-top: 10px;
+	width: 300px;
+	font-size: 14px;
+	color: #686868;
+	line-height: 20px;
+	margin-bottom: 15px;
+}
+
+.wrap-dev a{
+	display: block;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	font-family: arial;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	background: #262626;
+}
+.wrap-dev a:hover{background: #4ca893;}
+
+
+
+/*--------SUBSCRIBE---------*/
+
+.subscribe{
+	height: 200px;
+	position: relative;
+	background: #4ca893;
+}
+
+.subscribe h3{
+	display: inline-block;
+	margin: 70px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+.subscribe p{
+	display: inline-block;
+	width: 700px;
+	line-height: 20px;
+	color: #fff;
+	font-size: 14px;
+	margin-top: 55px;
+}
+
+.subscribe form{
+	position: absolute;
+	width: 500px;
+	height: 50px;
+	background: #fff;
+	margin-left: 350px;
+	border: 1px solid #bcbcbc;
+	border-radius: 2px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);	
+}
+
+.subscribe form input[type="text"]{
+	width: 370px;
+	height: 30px;
+	padding: 5px 5px;
+	margin: 5px 3px;
+	font-size: 16px;
+	color: #686868;
+}
+
+.subscribe form input[type="submit"]{
+	width: 100px;
+	height: 45px;
+	margin-top: 2px;
+	background: #4ca893;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 2px;
+	font-weight: bold;
+}
+
+
+/*------------about-us-----------*/
+
+.about-us{
+	height: 300px;
+}
+
+
+
+
+
+
