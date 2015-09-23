@@ -232,15 +232,204 @@ header{
 	font-weight: bold;
 }
 
+.subscribe form input[type="submit"]:hover{
+	cursor: pointer;
+}
+
 
 /*------------about-us-----------*/
 
 .about-us{
 	height: 300px;
+	color: #686868;
+}
+
+.left-col{
+	display: inline-block;
+	width: 450px;
+	height: 150px;
+	margin-top: 80px;
+	margin-left: 30px;
+	margin-right: 80px;
+}
+
+.left-col h3{
+	font-size: 34px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.left-col p{
+	text-indent: 35px;
+	line-height: 22px;
+}
+
+.right-col{
+	display: inline-block;
+	position: relative;
+	width: 460px;
+	height: 150px;
+	margin-top: 140px;
+	padding-left: 120px;
+}
+
+.right-col:before{
+	content: '';
+	background: url(images/border-icon.png) no-repeat;
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	top: 0;
+	left: 0;
+}
+
+.buttons{
+	width: 460px;
+	height: 20px;
+	text-align: right;
+	margin-top: 50px;
+}
+
+.btn{
+	width: 20px;
+	height: 20px;
+	color: #fff;
+	font-weight: bold;
+	background: #4ca893;
+	text-align: center;
+}
+.btn:hover{
+	background: #bcbcbc;	
+	cursor: pointer;
+}
+
+
+/*-------TWIT---------*/
+
+.twit-info{
+	height: 200px;
+	background: #4ca893;
+	text-align: center;
+}
+
+.twit-info p{
+	position: relative;
+	color: #fff;
+	padding-top: 100px;
+}
+
+.twit-info p:before{
+	content: '';
+	background: url(images/social-twitter.png) no-repeat;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 35px;
+	left: 580px;
+}
+
+.twit-info span{
+	display: block;
+	margin-top: 10px;
+}
+
+
+/*---------FOOTER--------*/
+
+footer{
+	height: 400px;
+	background: url(images/footer-bg.png) no-repeat;
+	background-size: cover;
+		color: #fff;
+}
+
+footer h5{
+	position: relative;
+	font-size: 18px;
+	font-weight: 100;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+footer .first-col{
+	display: inline-block;
+	position: relative;
+	width: 250px;
+	margin: 50px 60px 0 100px;
+}
+
+footer .first-col h4{
+	font-size: 30px;
+	margin-bottom: 130px;
+}
+
+footer .first-col h5:before{
+	content: '';
+	background: url(images/flag.png) no-repeat;
+	width: 40px;
+	height: 50px;
+	position: absolute;
+	top: -60px;
+	left: 0;
+}
+
+
+footer .second-col{
+	display: inline-block;	
+	width: 250px;
+	margin: 215px 60px 0 0;
+}
+
+footer .second-col h5:before{
+	content: '';
+	background: url(images/mark-adress.png) no-repeat;
+	width: 40px;
+	height: 50px;
+	position: absolute;
+	top: -60px;
+	left: 0;
 }
 
 
 
+footer .third-col{
+	display: inline-block;
+	width: 450px;
+	margin: 215px 0 0 0;
+}
 
+footer .third-col h5:before{
+	content: '';
+	background: url(images/icon-android-mail.png) no-repeat;
+	width: 40px;
+	height: 50px;
+	position: absolute;
+	top: -58px;
+	left: 0;
+}
 
+footer input{	color: #686868;}
 
+footer .top-field{
+	width: 160px;
+	height: 25px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+footer .message-field{
+	width: 338px;
+	height: 30px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+footer input[type="submit"]{
+	display: block;
+	width: 100px;
+	height: 35px;
+	background: #262626;
+	color: #fff;
+	font-weight: 600;
+	font-size: 12px;
+}
